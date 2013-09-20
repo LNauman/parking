@@ -18,6 +18,8 @@ feature "user registers spot", %Q{
   # So that two cars are not parked in the same spot
 
 
+  
+
   scenario 'specifies valid information, registers a spot' do
     prev_count = ParkingRegistration.count
     visit '/'
